@@ -208,20 +208,22 @@ function Planetarium(){
         text("Cygnus", 150, 80)
       } 
       push();
-      translate(500, 300)
+      translate(1200, 300)
       line(300,300,200,400);//bigdipper
       line(200,405,340,460);
       line(340,455,345,310);
       line(340,305,305,300);
       line(345,300,380,260);
       line(385,255,450,230);
-      if ((mouseX > 900) && (mouseX < 1150) && (mouseY > 660) && (mouseY < 850)) {
+      if ((mouseX > 1600) && (mouseX < 1850) && (mouseY > 660) && (mouseY < 850)) {
         text("Big Dipper", 260, 400)
       } 
       pop();
       
+      push();
+      translate(500, 0)
       line(230,200,250,180);//cancer
-      if ((mouseX > 430) && (mouseX < 450) && (mouseY > 280) && (mouseY < 300)) {
+      if ((mouseX > 930) && (mouseX < 950) && (mouseY > 280) && (mouseY < 300)) {
         text("Cancer", 240, 190)
       } 
       
@@ -241,13 +243,13 @@ function Planetarium(){
       pop();
       
       push();
-      translate(300, 100);
+      translate(800, 100);
       line(480,150,440,100);//cepheus
       line(540,90,500,40);
       line(485,150,540,95);
       line(440,95,448,30);
       line(448,25,495,40);
-      if ((mouseX > 940) && (mouseX < 1040) && (mouseY > 225) && (mouseY < 350)) {
+      if ((mouseX > 1440) && (mouseX < 1540) && (mouseY > 225) && (mouseY < 350)) {
         text("Cepheus", 460, 80)
       } 
       pop();
