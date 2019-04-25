@@ -226,6 +226,7 @@ function Planetarium(){
       if ((mouseX > 930) && (mouseX < 950) && (mouseY > 280) && (mouseY < 300)) {
         text("Cancer", 240, 190)
       } 
+      pop();
       
       push();
       translate(0, 500);
