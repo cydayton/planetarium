@@ -15,4 +15,4 @@ My piece is very user-friendly.  Ideally, it would be set up on a very large scr
 ### Technical Details
 This project mainly utilizes p5.js to create the canvas and drawings.  I chose to use this library because I wanted to be able to incorporate a elements from different units throughout the semester.  I used scenemanager.js to switch from the title page to project canvas.  The Scene Manager library allows for multiple different pages within one code file.  Within each subgroup in the code, there are separate setup() and draw() functions for each slide.  The moving stars are created with a "Star" class.  I used clmtrackr.js to track the positions of points on the viewer's face.  I then indexed the positions and turned them into twinkling stars.  My project is hosted through GitHub Pages.
 
-[Here's a link to the piece](https://cydayton.github.io/finalproject/)
+[Here's a link to the piece](https://cydayton.github.io/final/)
