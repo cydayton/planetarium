@@ -99,7 +99,7 @@ function Intro(){
 
       textSize(24);
       textFont(ifont);
-      text("Move your cursor to change the speed of the flying stars.", width/2, height/2);
+      text("Move your cursor horizontally to change the speed of the flying stars.", width/2, height/2);
       text("To venture inside the planetarium, click anywhere in the sky...", width/2, 50+height/2);
       text("Allow camera access to create your own personal constellation!", width/2, 100+height/2);
       text("Once inside, hover over the constellations to learn their names.", width/2, 150+height/2);
